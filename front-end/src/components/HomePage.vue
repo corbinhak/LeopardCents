@@ -90,7 +90,6 @@ export default ({
 
     h3 {
         color: white;
-        size: 18px;
         text-align: center;
     }
 

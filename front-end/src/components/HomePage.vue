@@ -14,33 +14,67 @@
             <tr>
                 <th>
                     <div id="left">
-                        <h3>
-                            Send Us A Message
-                        </h3>
-                        <p>
-                            Our Team is available Mondays-Friday from 8AM-5PM. Feel free to contact us at anytime and we will get back to you as soon as we can!
-                        </p>
+                        <ul>
+                            <li>
+                                <h3>
+                                    Send Us A Message
+                                </h3>
+                            </li>
+                            <li>
+                                <p>
+                                Our Team is available Mondays-Friday from 8AM-5PM. Feel free to contact us at anytime and we will get back
+                                to you as soon as we can!
+                                </p>
+                            </li>
+                            <li>
+                                <button>
+                                    Contact Us
+                                </button>
+                            </li>
+                        </ul>
                     </div>
                 </th>
                 <th>
                     <div id="mid">
-                        <h3>
-                            Socials
-                        </h3>
-                        <p>
-                            Checkout our Instagram, Podcast, and Twitter
-                        </p>
+                        <ul>
+                            <li>
+                                <h3>
+                                    Socials
+                                </h3>
+                            </li>
+                            <li>
+                                <p>
+                                    Checkout our Instagram, Podcast, and Twitter for all our latest posts and updates!
+                                </p>
+                            </li>
+                            <li>
+                                <button>
+                                    Our Socials
+                                </button>
+                            </li>
+                        </ul>
                     </div>
                 </th>
                 <th>
                     <div id="right">
-                        <h3>
-                            Student Service Center
-                        </h3>
-                        <p>
-                            Any questions regarding Wentworth billing or financial aid processing cannot be answered by us. 
-                            Use the button below to return to the official SSC website.
-                        </p>
+                        <ul>
+                            <li>
+                                <h3>
+                                    Student Service Center
+                                </h3>
+                            </li>
+                            <li>
+                                <p>
+                                    Any questions regarding Wentworth billing or financial aid processing cannot be answered by us. 
+                                    Use the button below to return to the official SSC website.
+                                </p>
+                            </li>
+                            <li>
+                                <button>
+                                    Return to SSC
+                                </button>
+                            </li>
+                        </ul>
                     </div>
                 </th>
             </tr>
@@ -53,7 +87,8 @@
 export default ({
    name: "HomePage"
 })
-    </script>
+
+</script>
 
 <style scoped>
     body, html {
@@ -61,18 +96,25 @@ export default ({
         padding: 0px;
     }
 
+    table {
+    margin-top: -19px;
+    margin-left: -6px;
+    padding:-10px;
+    display: flex;
+    }
+
     #top {
         background-color:  #05B13F;
-        height: 470px;
+        height: 550px;
         margin-top: 0%;
         padding: 3%;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 18%;
+        padding-right: 18%;
     }
 
     h1 {
         color: white;
-        size: 24px;
+        font-size: 40px;
         text-align: center;   
         padding: 8%;
         font-family:sans-serif
@@ -80,41 +122,65 @@ export default ({
 
     h2{
         color: white;
-        size: 18px;
+        font-size: 26px;
         text-align: center;
+        line-height: 30px;
+        word-spacing: 8px;
+
     }
 
     li {
         display: inline-flex;
+        vertical-align: middle;
+        align-content: center;
+        margin-left: -5px;
     }
 
     h3 {
         color: white;
         text-align: center;
+        padding-top: 35px;
+        font-size: 28px;
+    }
+
+    button {
+        color:white;
+        background-color: black;
+        width: 220px;
+        height: 40px;
+        border: 5px solid black;
+        border-radius: 3px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 24px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
     p {
         color: white;
-        size: 14px;
+        font-size: 24px;
         text-align: center;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     #left {
         background-color: #F47521;
-        height: 250px;
-        width: 375px;
+        height: 440px;
+        width: 505px;
     }
 
     #mid {
         background-color: #FDB913;
-        height: 250px;
-        width: 375px;
+        height: 440px;
+        width: 505px;
+
     }
 
     #right {
         background-color: #E7202B;
-        height: 250px;
-        width: 375px;
+        height: 440px;
+        width: 505px;
     }
 
 </style>

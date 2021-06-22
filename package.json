@@ -1,0 +1,26 @@
+{
+  "name": "leopardcents",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "^4.5.13"
+  },
+  "bugs": {
+    "url": "https://github.com/corbinhak/LeopardCents/issues"
+  },
+  "homepage": "https://github.com/corbinhak/LeopardCents#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corbinhak/LeopardCents.git"
+  }
+}

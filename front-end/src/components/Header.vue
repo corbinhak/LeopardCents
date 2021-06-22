@@ -32,9 +32,9 @@
                     </a>
                 </li>
                 <li>
-                    <a id="button-green">
+                    <button>
                         Meet With Us
-                    </a>
+                    </button>
                 </li>
             </ul>
         </nav>
@@ -67,11 +67,13 @@ export default {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
-    #button-green {
+    button {
         background-color:  #05B13F;
         border: 5px solid #05B13F;
         border-radius: 5px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        font-size: 18px;
 
     }
 

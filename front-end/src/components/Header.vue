@@ -88,6 +88,10 @@ export default {
         font-size: 18px;
     }
 
+    a {
+        color: white;
+    }
+
     .navbar-left {
         float: left;
         margin-top: 0%;

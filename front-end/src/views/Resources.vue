@@ -8,24 +8,24 @@
                     <tr>
                         <th>
                             <button class="orange">
-                                Credit
+                                <router-link to="/resources/credit"> Credit </router-link>
                             </button>
                         </th>
                         <th>
                             <button class="yellow">
-                                Loans
+                                <router-link to="/resources/loans"> Loans </router-link>
                             </button>
                         </th>
                         <th>
                             <button class="red">
-                                Banking
+                                <router-link to="/resources/salary-negotiation"> Salary Negotiation </router-link>
                             </button>
                         </th>
                     </tr>
                     <tr>
                         <th>
                             <button class="yellow">
-                                Budgeting
+                                <router-link to="/resources/budgeting"> Budgeting </router-link>
                             </button>                        
                         </th>
                         <th>

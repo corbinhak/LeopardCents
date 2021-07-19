@@ -1,7 +1,8 @@
-import { COMPLETIONSTATEMENT_TYPES } from '@babel/types'
+//import { COMPLETIONSTATEMENT_TYPES } from '@babel/types'
 import { createApp } from 'vue'
-import VueRouter from 'vue-router'
+//import VueRouter from 'vue-router'
 import App from './App.vue'
+import router from './router'
 
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')

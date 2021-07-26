@@ -10,6 +10,12 @@ import Credit from '../views/Resources/Credit.vue'
 import Loans from '../views/Resources/Loans.vue'
 import SalaryNeg from '../views/Resources/SalaryNeg.vue'
 import Budgeting from '../views/Resources/Budgeting.vue'
+import Investing from '../views/Resources/Investing.vue'
+import Taxes from '../views/Resources/Taxes.vue'
+import Retirement from '../views/Resources/Retirement.vue'
+import OnCampus from '../views/Resources/OnCampus.vue'
+import Housing from '../views/Resources/Housing.vue'
+
 
 const routes = [
   {
@@ -61,7 +67,33 @@ const routes = [
     path: '/resources/budgeting',
     name: 'Budgeting',
     component: Budgeting
+  },
+  {
+    path: '/resources/investing',
+    name: 'Investing',
+    component: Investing
+  },
+  {
+    path: '/resources/taxes',
+    name: 'Taxes',
+    component: Taxes
+  },
+  {
+    path: '/resources/retirement',
+    name: 'Retirement',
+    component: Retirement
+  },
+  {
+    path: '/resources/oncampus',
+    name: 'OnCampus',
+    component: OnCampus
+  },
+  {
+    path: '/resources/housing',
+    name: 'Housing',
+    component: Housing
   }
+
 ]
 
 const router = createRouter({

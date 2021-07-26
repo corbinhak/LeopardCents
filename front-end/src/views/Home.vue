@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="container">
     <div id="top">
         <h1>
             Who We Are?
@@ -93,7 +93,7 @@ export default ({
 </script>
 
 <style scoped>
-    body, html {
+   body, html {
         margin: 0px;
         padding: 0px;
     }
@@ -112,16 +112,6 @@ export default ({
         padding: 3%;
         padding-left: 18%;
         padding-right: 18%;
-    }
-
-    button {
-        background-color:  #05B13F;
-        border: 5px solid #05B13F;
-        border-radius: 5px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-        font-size: 18px;
-
     }
 
     h1 {

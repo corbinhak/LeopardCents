@@ -30,29 +30,29 @@
                         </th>
                         <th>
                             <button class="orange">
-                                Investing
+                                 <router-link to="/resources/investing"> Investing </router-link>
                             </button>                        
                         </th>
                         <th>
                             <button class="yellow">
-                                Taxes
+                                <router-link to="/resources/taxes"> Taxes </router-link>
                             </button>
                         </th>
                     </tr>
                     <tr>
                         <th>
                             <button class="red">
-                                Retirement
+                                <router-link to="/resources/retirement"> Retirememt </router-link>
                             </button>
                         </th>
                         <th>
                             <button class="yellow">
-                                On-Campus Resources
+                                <router-link to="/resources/oncampus"> On-Campus Resources </router-link>
                             </button>
                         </th>
                         <th>
                             <button class="orange">
-                                Housing
+                                <router-link to="/resources/housing"> Housing </router-link>
                             </button>
                         </th>
                     </tr>

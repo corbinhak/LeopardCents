@@ -6,55 +6,48 @@
                 What is Budgeting?
             </h1>
             <h2>
-                Salary negotiations are conversations between you and a representative of a company
-                that aim to secure a higher salary you deserve. When you decide that you want to negotiate
-                a better salary be prepared to:
-            </h2>
-            <h2 style="text-align:center">Build Your Case: Prove that you are worth investing in with examples of the value you hold.
-                <br>
-                Face Some Resistance: Be prepared to answer questions like "Why do you deserve this salary?"
-                <br>
-                Find A Balance Between Firm And Flexible: A negotiation will not go well if you give into a
-                minimal salary increase or if you refuse to compromise. Be prepared to go back-and-forth during
-                negotiations until you decide you are comfortbale with the decision that's been reached.
+                Budgeting is a plan of how you are going to save and spend your money.
             </h2>
             <br>
             <h1>
-                Why is it important to negotiate your salary?
-            </h1>
-            <h2>
-                It's important to understand that salary negotiation is a part of the employment process and that
-                a higher salary is often a  part of advancing in your career. Your salary is how a company supports
-                your work-life balance, careeer development, and work flexiblity. Negotiating for these perks will
-                help you get the complete salary and benefits you need.
-            </h2>
-            <br>
-            <h1>
-                Salary Negotiation Tips
+                What are the Advantages of Budgeting?
             </h1>
             <h2 style="text-align:center">
-                Salary negotiation does not need to feel uncertain or intimidating if you have done research to learn
-                a realistic salary range to ask for, there is nothing to worry about.
+                It's almost guarenteed that you'll have money for the things you need.
                 <br>
+                It helps you save for unexpected costs.
                 <br>
-                Have a salary ramge rather than a single figure.
-                <br>
-                <br>
-                Do not sell yourself short.
-                <br>
-                <br>
-                Practice your pitch at least once before the actual negotiation.
-                <br>
-                <br>
-                Be gracious.
-                <br>
-                <br>
-                Be confident in your delievery.
-                <br>
-                <br>
-                Avoid accepting the first offer.
+                It will keep you aware of how your money is being spent.
             </h2>
-
+            <br>
+            <h1>
+                How to Make A Budget:
+            </h1>
+            <h2 style="text-align:center">
+                Determine Wants And Needs<br>
+                On a daily basis, what are the requirements for living and which things can you live without?
+                <br>
+                <br>
+                Calculate Your Expenses<br>
+                Figure out how much you're spending on expenses:<br>
+                Fixed expenses are consistent, like rent or student loan repayment.<br>
+                Flexible expenses vary, like grocery costs or electricity bills.
+                <br>
+                <br>
+                Calculate Your Income<br>
+                Calculate how much money is coming in, like momey from a job.
+                <br>
+                <br>
+                Track Spending and Income<br>
+                Each month, track how much money is coming in and going out. It's helpful to create a spreadsheet
+                to viusally see this! Then, you'll see how much extra you're spending and where there may be room
+                to save!
+                <br>
+                <br>
+                Stick to the Plan<br>
+                Create a plan that suits your money needs. Keep in mind, it's always good to save money each month for
+                unexpected costs! Stay motivated and stick to your plan!
+            </h2>
         </div>
     </div>
 </template>

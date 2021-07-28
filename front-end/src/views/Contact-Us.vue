@@ -56,7 +56,6 @@ export default ({
     color:white;
     text-align: center;
     font-size: 46px;
-    margin-left: -5%;
     padding-top: 3%;
 }
 
@@ -65,7 +64,6 @@ export default ({
     text-align: center;
     padding-bottom: 50px;
     font-size: 20px;
-    margin-left: -5%;
 
 }
 

@@ -4,6 +4,8 @@
         <h1>
             Blog
         </h1>
+        <iframe src="https://educatedspending.wordpress.com/" width="90%" height="600" id="spotify-emd" frameBorder="0"></iframe>
+
     </div>
 </template>
 
@@ -21,7 +23,7 @@ export default {
         padding: 3%;
     }
 
-    #{
+    #h1{
         font-size: 36px;
         color: white;
         text-align: center;

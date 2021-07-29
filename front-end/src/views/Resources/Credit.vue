@@ -1,6 +1,6 @@
 <template>
     <div id="credit">
-        <div class="orange">
+        <div id="orange">
             <h4><router-link to="/resources">&lt; Return to Resources</router-link></h4>
             <h1>
                 Credit Report
@@ -37,18 +37,34 @@ export default ({
         margin-top: 0%;
         text-align: left;
     }
-    .orange {
+ 
+    
+    #orange {
         margin-top: 0%;
         padding: 3%;
-        padding-left: 18%;
-        padding-right: 18%;
-        padding: 3%;
-        background-color: #F47521;
-        text-align: left;
+        padding-left: 15%;
+        padding-right: 15%;
         height: 525px;
+        background-color: #F47521;
+
     }
     
-    h1, p {
+    
+    h1{
+        font-size: 24px;
         text-align: left;
+    }
+
+    p{
+        font-size: 18px;
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    h4{
+        text-align: left;
+        margin-left: -20px;
+        font-size: 20px;
+
     }
 </style>

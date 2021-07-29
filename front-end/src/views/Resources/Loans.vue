@@ -105,4 +105,9 @@ export default ({
         margin-top: 0%;
         text-align: left;
     }
+
+    h4{
+        margin-left: -20px;
+        font-size: 20px;
+    }
 </style>

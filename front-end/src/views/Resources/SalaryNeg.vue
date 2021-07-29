@@ -1,6 +1,6 @@
 <template>
     <div id="salaryneg">
-        <div class="red">
+        <div id="red">
             <h4><router-link to="/resources">&lt; Return to Resources</router-link></h4>
             <h1>
                 What are Salary Negotiations?
@@ -10,14 +10,13 @@
                 that aim to secure a higher salary you deserve. When you decide that you want to negotiate
                 a better salary be prepared to:
             </h2>
-            <h2 style="text-align:center">Build Your Case: Prove that you are worth investing in with examples of the value you hold.
-                <br>
-                Face Some Resistance: Be prepared to answer questions like "Why do you deserve this salary?"
-                <br>
+            <h3>Build Your Case: Prove that you are worth investing in with examples of the value you hold.</h3>
+            <h3>Face Some Resistance: Be prepared to answer questions like "Why do you deserve this salary?"</h3>
+            <h3>
                 Find A Balance Between Firm And Flexible: A negotiation will not go well if you give into a
                 minimal salary increase or if you refuse to compromise. Be prepared to go back-and-forth during
                 negotiations until you decide you are comfortbale with the decision that's been reached.
-            </h2>
+            </h3>
             <br>
             <h1>
                 Why is it important to negotiate your salary?
@@ -69,19 +68,37 @@ export default ({
     
     #salaryneg {
         margin-top: 0%;
-        text-align: left;
+        background-color: #E7202B;
+
     }
-    .red {
+    #red {
         margin-top: 0%;
         padding: 3%;
-        padding-left: 18%;
-        padding-right: 18%;
-        padding: 3%;
-        background-color: #E7202B;
+        padding-left: 15%;
+        padding-right: 15%;
         text-align: left;
     }
     
-    h1, p {
+    h1 {
         text-align: left;
+        font-size: 24px;
+    }
+
+    h2 {
+        text-align: left;
+        font-size: 18px;
+
+    }
+
+    h3{
+        padding-bottom: 5px;
+        padding-left: 15px;
+    }
+
+    h4{
+        font-size: 20px;
+        text-align: left;
+        margin-left: -20px;
+
     }
 </style>

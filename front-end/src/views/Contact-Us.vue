@@ -110,7 +110,7 @@ export default ({
 }
 
 #cu-txt-email {
-    width: 350px;
+    width: 330px;
     height: 20px;
     background-color: lightgrey;
 }

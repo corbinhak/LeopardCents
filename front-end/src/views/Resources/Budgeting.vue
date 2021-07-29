@@ -1,6 +1,6 @@
 <template>
     <div id="budgeting">
-        <div class="yellow">
+        <div id="yellow">
             <h4><router-link to="/resources">&lt; Return to Resources</router-link></h4>
             <h1>
                 What is Budgeting?
@@ -12,7 +12,7 @@
             <h1>
                 What are the Advantages of Budgeting?
             </h1>
-            <h2 style="text-align:center">
+            <h2>
                 It's almost guarenteed that you'll have money for the things you need.
                 <br>
                 It helps you save for unexpected costs.
@@ -23,7 +23,7 @@
             <h1>
                 How to Make A Budget:
             </h1>
-            <h2 style="text-align:center">
+            <h2>
                 Determine Wants And Needs<br>
                 On a daily basis, what are the requirements for living and which things can you live without?
                 <br>
@@ -62,19 +62,32 @@ export default ({
     
     #budgeting {
         margin-top: 0%;
-        text-align: left;
+        background-color: #FDB913;
+
     }
-    .yellow {
+    #yellow {
         margin-top: 0%;
         padding: 3%;
         padding-left: 18%;
         padding-right: 18%;
-        padding: 3%;
-        background-color: #FDB913;
-        text-align: left;
     }
     
-    h1, p {
+    h1 {
         text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    h4{
+        text-align: left;
+        margin-left: -20px;
+        font-size: 20px;
     }
 </style>

@@ -1,18 +1,38 @@
 <template>
     <div id="credit">
-        <div class="orange">
+        <div id="orange">
             <h4><router-link to="/tools">&lt; Return to Tools</router-link></h4>
             <h1>
                 Credit Payoff Calculator
             </h1>
             <form @submit.prevent>
-                <label for="rbalance">Remaining Balance: </label>
-                <input v-model="balance" type="text" id="rbalance" name="rbalance"><br>
-                <label for="months">Amount of Months: </label>
-                <input v-model="months" type="text" id="months" name="months"><br>
-                <label for="interest">Interest/APR: </label>
-                <input v-model="interest" type="text" id="interest" name="interest"><br>
-                <input @click="calculate();" type="submit" value="Submit">   
+                <table>
+                    <tr>
+                        <th>
+                            <label for="rbalance">Remaining Balance: </label>
+                        </th>
+                        <th>
+                            <input v-model="balance" type="text" id="rbalance" name="rbalance">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="months">Amount of Months: </label>
+                        </th>
+                        <th>
+                            <input v-model="months" type="text" id="months" name="months">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="interest">Interest/APR: </label>
+                        </th>
+                        <th>
+                            <input v-model="interest" type="text" id="interest" name="interest">
+                        </th>
+                    </tr>
+                </table>
+                <input @click="calculate();" type="submit" id="submit" value="Submit">   
             </form>
             <table style="width:100%">
                 <tr>
@@ -65,21 +85,65 @@ export default ({
 <style scoped>
     
     #credit {
-        margin-top: 0%;
-        text-align: left;
-    }
-    .orange {
-        margin-top: 0%;
-        padding: 3%;
-        padding-left: 18%;
-        padding-right: 18%;
-        padding: 3%;
+         margin-top: 0%;
         background-color: #F47521;
-        text-align: left;
+
+    }
+    
+    #orange {
+        margin-top: 0%;
+        padding: 3%;
+        padding-left: 15%;
+        padding-right: 15%;
         height: 525px;
     }
     
-    h1, p {
+    h1 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+
+    table{
+        width: 100%;
+        align-self: center;
+    }
+
+    th{
+        padding-bottom: 30px;
+    }
+
+    input{
+        font-size: 18px;
+    }
+
+    #submit{
+        background-color:  #05B13F;
+        border: 5px solid #05B13F;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        width: 150px;
+        margin-left: 50%;
+    }
+
+    label {
+        font-size: 20px;
+        text-align: right;
+        width: 100%;
+
+
+    }
+
+    td{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    h4{
         text-align: left;
+        margin-left: -20px;
+        font-size: 20px;
     }
 </style>

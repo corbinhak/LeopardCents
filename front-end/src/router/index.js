@@ -6,15 +6,17 @@ import Socials from '../views/Socials.vue'
 import Tools from '../views/Tools.vue'
 import Contact from '../views/Contact-Us.vue'
 
-import Credit from '../views/Resources/Credit.vue'
-import Loans from '../views/Resources/Loans.vue'
-import SalaryNeg from '../views/Resources/SalaryNeg.vue'
-import Budgeting from '../views/Resources/Budgeting.vue'
-import Investing from '../views/Resources/Investing.vue'
-import Taxes from '../views/Resources/Taxes.vue'
-import Retirement from '../views/Resources/Retirement.vue'
-import OnCampus from '../views/Resources/OnCampus.vue'
-import Housing from '../views/Resources/Housing.vue'
+import CreditResource from '../views/Resources/Credit.vue'
+import LoansResource from '../views/Resources/Loans.vue'
+import SalaryNegResource from '../views/Resources/SalaryNeg.vue'
+import BudgetingResource from '../views/Resources/Budgeting.vue'
+import InvestingResource from '../views/Resources/Investing.vue'
+import TaxesResource from '../views/Resources/Taxes.vue'
+import RetirementResource from '../views/Resources/Retirement.vue'
+import OnCampusResource from '../views/Resources/OnCampus.vue'
+import HousingResource from '../views/Resources/Housing.vue'
+
+import CreditTool from '../views/Tools/Credit.vue'
 
 
 const routes = [
@@ -50,48 +52,53 @@ const routes = [
   },
   {
     path: '/resources/credit',
-    name: 'Credit',
-    component: Credit
+    name: 'CreditResource',
+    component: CreditResource
   },
   {
     path: '/resources/loans',
-    name: 'Loans',
-    component: Loans
+    name: 'LoansResource',
+    component: LoansResource
   },
   {
     path: '/resources/salary-negotiation',
-    name: 'SalaryNeg',
-    component: SalaryNeg
+    name: 'SalaryNegResource',
+    component: SalaryNegResource
   },
   {
     path: '/resources/budgeting',
-    name: 'Budgeting',
-    component: Budgeting
+    name: 'BudgetingResource',
+    component: BudgetingResource
   },
   {
     path: '/resources/investing',
-    name: 'Investing',
-    component: Investing
+    name: 'InvestingResource',
+    component: InvestingResource
   },
   {
     path: '/resources/taxes',
-    name: 'Taxes',
-    component: Taxes
+    name: 'TaxesResource',
+    component: TaxesResource
   },
   {
     path: '/resources/retirement',
-    name: 'Retirement',
-    component: Retirement
+    name: 'RetirementResource',
+    component: RetirementResource
   },
   {
     path: '/resources/oncampus',
-    name: 'OnCampus',
-    component: OnCampus
+    name: 'OnCampusResource',
+    component: OnCampusResource
   },
   {
     path: '/resources/housing',
-    name: 'Housing',
-    component: Housing
+    name: 'HousingResource',
+    component: HousingResource
+  },
+  {
+    path: '/tools/credit',
+    name: 'CreditTool',
+    component: CreditTool
   }
 
 ]

@@ -8,7 +8,7 @@
                 <tr>
                     <th>
                         <button class="orange">
-                            Credit
+                            <router-link to="/tools/credit"> Credit </router-link>
                         </button>
                     </th>
                     <th>

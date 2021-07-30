@@ -18,7 +18,7 @@
                     </th>
                     <th>
                         <button class="red">
-                            Banking
+                            <router-link to="/tools/renting"> Renting </router-link>
                         </button>
                     </th>
                 </tr>

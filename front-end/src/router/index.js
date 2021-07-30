@@ -17,6 +17,7 @@ import OnCampusResource from '../views/Resources/OnCampus.vue'
 import HousingResource from '../views/Resources/Housing.vue'
 
 import CreditTool from '../views/Tools/Credit.vue'
+import RentingTool from '../views/Tools/Renting.vue'
 
 
 const routes = [
@@ -99,6 +100,11 @@ const routes = [
     path: '/tools/credit',
     name: 'CreditTool',
     component: CreditTool
+  },
+  {
+    path: '/tools/renting',
+    name: 'RentingTool',
+    component: RentingTool
   }
 
 ]

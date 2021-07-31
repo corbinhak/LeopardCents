@@ -128,7 +128,7 @@ h3{
     color: white;
     font-size: 26px;
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     word-spacing: 8px;
     padding-bottom: 5%;
 }

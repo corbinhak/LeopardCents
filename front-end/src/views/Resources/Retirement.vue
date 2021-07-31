@@ -46,7 +46,7 @@ export default ({
         padding: 3%;
         padding-left: 15%;
         padding-right: 15%;
-        height: 525px;
+        height: 625px;
     }
     
     h1{

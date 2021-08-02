@@ -13,7 +13,7 @@
                     </th>
                     <th>
                         <button class="yellow">
-                            Loans
+                            <router-link to="/tools/loans"> Loans </router-link>
                         </button>
                     </th>
                     <th>
@@ -25,17 +25,17 @@
                 <tr>
                     <th>
                         <button class="yellow">
-                            Budgeting
+                            <router-link to="/tools/mortgage"> Mortgage </router-link>
                         </button>                        
                     </th>
                     <th>
                         <button class="orange">
-                            Investing
+                            <router-link to="/tools/savings"> Savings </router-link>
                         </button>                        
                     </th>
                     <th>
                         <button class="yellow">
-                            Taxes
+                            <router-link to="/tools/leisure"> Leisure </router-link>
                         </button>
                     </th>
                 </tr>

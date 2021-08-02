@@ -18,6 +18,10 @@ import HousingResource from '../views/Resources/Housing.vue'
 
 import CreditTool from '../views/Tools/Credit.vue'
 import RentingTool from '../views/Tools/Renting.vue'
+import LoansTool from '../views/Tools/Loans.vue'
+import MortgageTool from '../views/Tools/Mortgage.vue'
+import SavingsTool from '../views/Tools/Savings.vue'
+import LeisureTool from '../views/Tools/Leisure.vue'
 
 
 const routes = [
@@ -102,9 +106,29 @@ const routes = [
     component: CreditTool
   },
   {
+    path: '/tools/loans',
+    name: 'LoansTool',
+    component: LoansTool
+  },
+  {
     path: '/tools/renting',
     name: 'RentingTool',
     component: RentingTool
+  },
+  {
+    path: '/tools/mortgage',
+    name: 'MortgageTool',
+    component: MortgageTool
+  },
+  {
+    path: '/tools/savings',
+    name: 'SavingsTool',
+    component: SavingsTool
+  },
+  {
+    path: '/tools/leisure',
+    name: 'LeisureTool',
+    component: LeisureTool
   }
 
 ]

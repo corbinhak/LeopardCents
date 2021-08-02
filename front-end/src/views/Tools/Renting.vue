@@ -67,20 +67,19 @@ export default {
 
 <style scoped>
     .red {
-        background-color: #E7202B;
         margin-top: 0%;
         padding: 3%;
         padding-left: 15%;
         padding-right: 15%;
-        height: 625px;
+        background-color: #E7202B;
+        text-align: left;
+        height: 500px;
     }
-    
+
     h1 {
         text-align: center;
         padding-bottom: 20px;
     }
-
-
 
     table{
         width: 100%;
@@ -115,12 +114,6 @@ export default {
 
     td{
         padding-top: 20px;
-        font-size: 20px;
-    }
-
-    h4{
-        text-align: left;
-        margin-left: -20px;
         font-size: 20px;
     }
 </style>

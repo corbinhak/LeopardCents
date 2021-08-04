@@ -85,7 +85,7 @@ export default ({
 <style scoped>
     
     #credit {
-         margin-top: 0%;
+        margin-top: 0%;
         background-color: #F47521;
 
     }
@@ -95,7 +95,7 @@ export default ({
         padding: 3%;
         padding-left: 15%;
         padding-right: 15%;
-        height: 625px;
+        height: 500px;
     }
     
     h1 {

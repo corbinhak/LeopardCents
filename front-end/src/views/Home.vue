@@ -130,7 +130,6 @@ h3{
     text-align: center;
     line-height: 40px;
     word-spacing: 8px;
-    padding-bottom: 5%;
 }
 
 #h-li {

@@ -6,7 +6,7 @@
         <p id="cu-p">
             Have any questions or concern? Feel free to send us a message!
         </p>
-        <form name="Leopard Cents Contact Us Form" method="POST" netlify>
+        <form name="Contact Us Form" @submit.prevent="sendEmail">
             <div>
                 <div id="cu-ul" >
                     
@@ -33,8 +33,24 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
+
 export default ({
-    name: 'Contact'
+    name: 'Contact',
+    methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('service_ivzsova', 'template_q7zu0lm', e.target, 'user_Caj2u3a4PWpZRtMOJ8miU')
+        .then((result) => {
+            console.log('SUCCESS', result);
+            alert("Form Submitted Succesfully!");
+            location.replace("https://leopard-cents.netlify.app/#");
+        }, (error) => {
+            console.log('FAILED...', error);
+            alert("Form failed to submit, please try again!");
+            location.replace("https://leopard-cents.netlify.app/#/contact-us");
+        });
+    }
+  }
 })
 
 

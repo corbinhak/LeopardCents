@@ -6,7 +6,7 @@
         <p id="cu-p">
             Have any questions or concern? Feel free to send us a message!
         </p>
-        <form>
+        <form name="Leopard Cents Contact Us" method="POST" netlify>
             <div>
                 <div id="cu-ul" >
                     

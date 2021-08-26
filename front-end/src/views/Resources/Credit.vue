@@ -49,6 +49,9 @@ export default ({
 
     }
     
+    a{
+        color:blue;
+    }
     
     h1{
         font-size: 24px;

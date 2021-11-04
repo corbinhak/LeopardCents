@@ -11,6 +11,5 @@ https://www.youtube.com/watch?v=9gjU7fbJ-ag
 https://drive.google.com/file/d/1cR7USv69CRjKQLhGinIHJwjVFq9uDkFN/preview
 
 # Team Members
-  Maxwell Rankins (@rankinsm)
-  Corbin Hakimian (@corbinhak)
-
+Maxwell Rankins (@rankinsm)\
+Corbin Hakimian (@corbinhak)
